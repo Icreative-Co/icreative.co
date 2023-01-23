@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?");
+
+body {
+  \\background-image: url("C:/Users/Admin/Downloads/ICREATIVE CO/ink2.gif");
+  background: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 5px;
+  font-family: 'CascadiaCode', monospace;
+  cursor: pointer;
+  
+}
+
+
+body .container {
+
+  background: transparent;
+  line-height: 1.8;
+  font-size: 20px;
+  color: #00b0ff;
+  padding: 25px 75px 25px 25px;
+  
+}
+
+
+body .container .welcome {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 50px 25% 0 25%;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  color: #ffffff;
+
+}
+
+body .container .message {
+
+  text-align: center;
+  font-size: 15px;
+  
+}
+
+body .container .nameEntry {
+  text-align: center; 
+  align-items: center;
+  color: #00ff9c;
+  margin-top: 100px
+  font-size:13px;
+  
+}
+
+
+
+body .container .nameEntry input {
+  font-family: inherit;
+  width: 1%;
+  border: 0;
+  border-radius: 2px;
+  outline: 0;
+  font-size: 14px;
+  color: #ffffff;
+  background: transparent;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.8s ease-in-out;
+  
+}
+
+
+
+body .container .nameEntry input:hover {
+width:4%;
+border-bottom: 1px solid #00ff9c;
+
+}
+
+
+body .container .animation {
+  margin-top: 30px;
+  margin-left: 46%;
+  color: #fffc58;
+  display: none;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+body .container .animation #parent {
+  white-space: nowrap;
+  overflow: hidden;
+  color: #00ff9c;
+  text-align: center; 
+  align-items: center;
+  margin-left: 14px;
+  background: transparent;
+  text-decoration: 
+  border-style: outset;
+  text-shadow: 2px 2px 3px #00ff9c;
+  
+}
+
+
+
+body .container .commandLine {
+  display: none;
+  font-size: 15px;
+  color: white;
+}
+
+.commandHeader {
+  font-size: 13px;
+}
+
+body .container .commandLine input {
+  font-family: inherit;
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  type: uppercase;
+  autocomplete: off;
+}
+
+
+body .container .commandLine .output .error {
+    font-size: 12px;
+    color: #ff6e67;
+}
+
+
+body .container .commandLine .output .ls {
+  color: #00ff9c;
+}
+
+
+
+body .container .commandLine .output .certificates {
+    
+}
+
+
+body .container .commandLine .output .certificates .cert {
+    display:inline-block;
+    float: none;
+    width: 20%;
+    padding: 0 5px;    
+}
+
+
+
+body .container .commandLine .output .certificates .certificate {
+    text-align: center;
+    color: #00ff9c;
+    font-size: 12px;
+}
+
+
+
+body .container .commandLine .output .bio {
+  color: white;
+}
+
+
+
+
+body .container .commandLine .output .skills p{
+   color:#00ff9c;
+}
+
+
+
+body .container .commandLine .output .skills .progress {
+  background-color: #00ff00;
+  border: 0.1px solid;
+  height: 1px;
+  border-radius: 4px;
+  width: 50%;
+}
+
+
+body .container .commandLine .output .skills .progress .progress-bar {
+  text-align: right;
+  color:white;
+  height:5px;
+  margin-top: -2px; 
+  font-size: 12px;
+  border-radius: 4px;
+  clearfix: auto;
+  box-shadow: 1px 1px 8px #00b0ff;
+}
+
+
+
+.html {width: 80%; background-color: #00b0ff;}
+.css {width: 85%; background-color:  #00b0ff;}
+.js {width: 70%; background-color:   #00b0ff;}
+.php {width: 65%; background-color:  #00b0ff;}
+
+
+body .container .commandLine .output .projects {
+  line-height: normal;
+  
+}
+
+
+
+body .container .commandLine .output .project {
+  line-height: normal;
+  display:inline;
+  padding: 30px; 
+  color: #00ff9c;
+}
+
+body .container .commandLine .output .contact {
+  color: #00ff9c;
+  padding-left: 45px;
+}
+
+
+body .container .commandLine .output .form input,
+body .container .commandLine .output .form textarea {
+  font-family: inherit;
+  border: 0;
+  border-bottom: 1px solid #00ff9c;
+  outline: 0;
+  font-size: 15px;
+  color: white;
+  padding: 5px 0;
+  background: transparent;
+}
+
+.command {
+  color: #00ff9c;
+}
+
+.banner {
+   font-size: 12px;
+   line-height: 1;
+   color: #ffcc66;
+   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #00b0ff;
+}
+
+
+
+.smallText {
+  padding-top: 10px;
+  color: grey;
+  font-size: 20px;
+}
+
+#userName {
+  color: #00ff9c;
+}
+
+hr {
+  color: white;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.exit {
+  text-align: center;
+  top:50%;
+}
+
+/* Animation */
+/* text animation */
+@keyframes animated-text {
+  from {width: 0%;}
+   to  {width: 9.5%;}
+
+}
+ 
+
+/*# sourceMappingURL=master.css.map */
